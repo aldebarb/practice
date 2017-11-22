@@ -168,6 +168,7 @@ foreach ($colorArray as $key => $value) {
 }
 print_r($temp);
 
+
 //#13 display numbers from 200 to 250 divisible by 4
 echo "<br>" . implode(',', range(200, 250, 4)) . "<br>";
 
@@ -193,6 +194,7 @@ for ($i=0; $i < 10 ; $i++) {
     $arrayRandom[] = mt_rand(11, 20);
 }
 echo "<br> Random numbers: " . implode(', ', $arrayRandom);
+
 
 //#16 get the largest key in an array
 $arrayKey = array('one', 'two', 'three', 'four', 'five', 'six');
